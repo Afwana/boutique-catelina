@@ -1,0 +1,89 @@
+* {
+    font-family: 'Playfair', serif;
+    ;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(./bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.size {
+    width: 250px;
+    height: 200px;
+}
+
+.style {
+    height: 400px;
+}
+
+.card {
+    height: 620px;
+}
+
+.accrow {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.topmar {
+    margin-top: 100px;
+}
+
+.cn {
+    position: relative;
+    width: 90%;
+}
+
+/* .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 50%;
+    opacity: 0;
+    transition: .7s ease-in-out;
+    background-color: #aef4f4;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.foot {
+    margin: 50px 0px 0px 0px;
+}
+
+.textcont {
+    margin-left: 57%;
+    margin-top: 15%;
+}
+.about{
+    margin-left: 25px;
+}
